@@ -28,8 +28,10 @@ export default class MyDocument extends Document {
 						content="width=device-width, initial-scale=1.0"
 					/>
 					<link href="/static/min.css" rel="stylesheet" />
-					{/* <link href="/static/materialize.min.css" rel="stylesheet" /> */}
-					<link href="/static/materialize.min.js" rel="stylesheet" />
+					<link
+						href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+						rel="stylesheet"
+					/>
 					{this.props.styleTags}
 				</Head>
 				<body>
